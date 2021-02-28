@@ -1,5 +1,5 @@
 # Office Opener
-Webextension which opens Office-Documents on local or shared network drives
+Webextension which opens Office Documents on local or shared network drives
 
 **This only works with new versions of Microsoft Office!**
 
