@@ -16,6 +16,6 @@ If it works / doesn't work for you, feel free to leave an issue report, and I wi
 This Webextension enables you to open local Office Files directly from web/intranet pages. This was a functionality present in Internet Explorer and Edge, but has since been removed from all major browsers.
 
 How to use:
-- set a link on your web/intranet page to the file in the format `file:///C:/path to the file`. Note the forward slashes
+- set a link on your web/intranet page to the file in the format `file:///C:/path/to/the/file`. Note the forward slashes
 - install the extension. It will turn all file-links which point to an Office file into [Office-URL compatible links](https://docs.microsoft.com/en-us/office/client-developer/office-uri-schemes)
 - click on the link. You should be prompted to select an application with which you want to open the file, choose the appropriate application.
