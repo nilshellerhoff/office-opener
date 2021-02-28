@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Office Opener",
+    "description": "Open local Microsoft Office files from a website",
+    "icons": {
+    	"16": "icon-16.png",
+    	"48": "icon-48.png",
+    	"128": "icon-128.png"
+    },
+    "version": "0.1",
+	"content_scripts":[
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"],
+			"run_at": "document_end"
+		}
+	],
+	"content_security_policy": "script-src 'self'; object-src 'self'; img-src chrome://favicon http://* https://* 'self' data:;",
+	"browser_action": {
+	    "default_icon": "icon-48.png"
+	},
+	"permissions": [
+      "activeTab"
+	]
+}
