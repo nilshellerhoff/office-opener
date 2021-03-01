@@ -1,5 +1,5 @@
 # Office Opener
-Webextension which opens Office Documents on local or shared network drives
+Modern browsers, such as Chrome, Firefox or the new Edge do not allow local contents to be linked from a site served over HTTP(S). This is a security feature, which though hinders some applications, like linking to local office files from a corporate intranet. This extension enables you to open Office files locally from a link. See below for more info
 
 **This only works with new versions of Microsoft Office!**
 
