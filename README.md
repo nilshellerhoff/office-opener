@@ -5,6 +5,7 @@ Modern browsers, such as Chrome, Firefox or the new Edge do not allow local cont
 
 Confirmed to work on:
 - Microsoft 365 MSO (16.0.13530.20490) 64-bit
+- Microsoft 365 MSO (16.0.13127.21210) 64-bit
 
 Does not work on:
 - Microsoft Office 2016 (16.0.5110.1000) 64-bit
